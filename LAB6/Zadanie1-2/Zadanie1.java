@@ -15,7 +15,7 @@ public class Zadanie1 {
     JButton stop = new JButton("stop");
     JMenuBar bar = new JMenuBar();
     JMenu menu = new JMenu("Menu");
-    JMenuItem i1 = new JMenuItem("Uruchom Wątek");
+    JMenuItem i1 = new JMenuItem("Uruchom wątek");
     JMenuItem i2 = new JMenuItem("Zatrzymaj wątek");
     JMenuItem i3 = new JMenuItem("O programie");
 
