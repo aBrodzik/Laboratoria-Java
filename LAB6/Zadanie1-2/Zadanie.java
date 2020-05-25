@@ -6,7 +6,7 @@ import java.awt.*;
 import java.awt.event.*;
 
 
-public class Zadanie1 {
+public class Zadanie {
 
     static public int time;
     static JLabel sumTime = new JLabel();
@@ -22,7 +22,7 @@ public class Zadanie1 {
     /**
      * Konsturkor, tworzy elementy GUI
      */
-    public Zadanie1(){
+    public Zadanie(){
         time=0;
         addMenu();
         addButtons();
@@ -105,7 +105,7 @@ public class Zadanie1 {
 
     public static void main(String[] args) {
 
-        Zadanie1 zadanie = new Zadanie1();
+        Zadanie zadanie = new Zadanie();
 
     }
 }

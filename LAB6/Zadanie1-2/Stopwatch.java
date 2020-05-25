@@ -43,11 +43,11 @@ public class Stopwatch extends Thread {
                     e.printStackTrace();
                 }
 
-                Zadanie1.time = Zadanie1.time + randomSleep;
+                Zadanie.time = Zadanie.time + randomSleep;
 
 
             }
-            Zadanie1.sumTime.setText("Sumaryczy przespany czas: " + Zadanie1.time + "");
+            Zadanie.sumTime.setText("Sumaryczy przespany czas: " + Zadanie.time + "");
 
         }
     }
